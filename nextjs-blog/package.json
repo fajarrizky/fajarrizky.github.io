@@ -9,15 +9,18 @@
   },
   "dependencies": {
     "@sls-next/serverless-component": "^1.18.0",
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9.8.6",
     "date-fns": "^2.16.1",
     "next": "^10.0.0",
+    "postcss": "^7.0.35",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^6.7.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "remark": "^13.0.0",
     "remark-html": "^13.0.1",
-    "tailwindcss": "^2.0.2"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
   },
   "devDependencies": {
     "serverless-nextjs-plugin": "^2.5.2-alpha.0"
